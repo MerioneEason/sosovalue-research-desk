@@ -306,3 +306,20 @@ cached currency list — the cache is gitignored regardless.)
 - Verified with `git ls-remote`: HEAD → main commit, both branch
   refs present and pointing at the commits above. Pages enablement
   in repo settings is handled separately (not done here).
+
+## Submission links filled in (2026-11-16)
+
+`SUBMISSION.md`: the Repository and Live demo placeholders replaced
+with the verified live links (repo:
+https://github.com/MerioneEason/sosovalue-research-desk ; demo:
+https://merioneeason.github.io/sosovalue-research-desk/dashboard/),
+and the optional Video introduction line resolved to "not provided".
+Full read-through: no remaining placeholders, no API key or email
+address anywhere in the file. `README.md` checked — it contains no
+repo/demo placeholders (nothing to replace).
+
+- Commit `9962d53971c8b1a39121a5448ddf10650f3decdb` on `main`
+  ("Fill in repo and demo links for Wave 3 submission"; also carries
+  the GitHub-publication section above), pushed and confirmed via
+  `git ls-remote`: `refs/heads/main` → that commit, `gh-pages`
+  unchanged at `9dc6bf0cedfdae4be972a577f05e7fdc6cb7c776`.
