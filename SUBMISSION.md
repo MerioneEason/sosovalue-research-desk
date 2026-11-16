@@ -75,9 +75,9 @@ Core logic:
    synthetic sample snapshot (documented shapes, invented values,
    labelled as such everywhere) runs the whole pipeline offline.
 
-**Repository:** <TODO: public GitHub repo URL>
-**Live demo:** <TODO: GitHub Pages URL>
-**Video introduction (optional):** <TODO or "not provided">
+**Repository:** https://github.com/MerioneEason/sosovalue-research-desk
+**Live demo:** https://merioneeason.github.io/sosovalue-research-desk/dashboard/
+**Video introduction (optional):** not provided
 
 ## Team Information
 

@@ -285,3 +285,24 @@ untouched, and the sample BTC backtest still reproduces +12.63% /
   with diagnostics). Secret scan over all 66 project files: 0 hits
   for the key value, 0 for the account email; only the documented
   header name and the SOSO_API_KEY env var remain.
+
+## GitHub publication (2026-11-16)
+
+Pre-push scan repeated independently over the whole tree (including
+`.cache/`): the API key value from the local credential file and the
+account email both returned **0 hits**; no keypair / claim-code /
+private-key material anywhere. (Two false-positive classes only: the
+key's human-readable *name* label, shared with the project title, and
+a date string; plus the word "Secret" as the SCRT token name inside a
+cached currency list — the cache is gitignored regardless.)
+
+- Repo: https://github.com/MerioneEason/sosovalue-research-desk
+- `main` — source tree (21 files; `.cache/` and `dist/` gitignored):
+  commit `19e03495c13aa5985d57e294606a3e64018ca88f`
+- `gh-pages` — `dist/` contents at branch root (`data.js`,
+  `board.json`, `dashboard/{index.html,app.js,app.css}`; the page
+  loads `../data.js`, so this layout is load-bearing):
+  commit `9dc6bf0cedfdae4be972a577f05e7fdc6cb7c776`
+- Verified with `git ls-remote`: HEAD → main commit, both branch
+  refs present and pointing at the commits above. Pages enablement
+  in repo settings is handled separately (not done here).
