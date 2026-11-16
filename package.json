@@ -1,0 +1,1 @@
+{"description":"Smart Research Dashboard + Signal-to-Execution desk built on the SoSoValue OpenAPI","engines":{"node":">=22"},"name":"sosovalue-research-desk","private":true,"scripts":{"build":"node main.ts","build:offline":"node main.ts --offline","sample":"node tools/make-sample.mjs"},"type":"module","version":"0.1.0"}

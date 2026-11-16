@@ -1,0 +1,15 @@
+# API responses cache (may be large; never a credential — the key is never written)
+.cache/
+# Build output
+dist/
+# Dependencies
+node_modules/
+# Environment / secrets
+.env
+.env.*
+!.env.example
+# Local credential files (never commit)
+sosovalue-api.json
+*keypair*
+*.pem
+credentials*
