@@ -1,8 +1,7 @@
-# AKINDO Submission — Draft (do not submit from this file)
+# AKINDO Submission
 
-Prepared for the AKINDO × SoSoValue WaveHack, Wave 3
-(submission deadline 2026-11-27 15:00 UTC). Fill the two placeholders
-once the repository and the Pages demo are live, then paste into the
+Submission copy for AKINDO × SoSoValue WaveHack — Wave 3. All links verified live on 2026-11-16.
+(submission deadline 2026-11-27 15:00 UTC). Paste into the
 AKINDO submission form.
 
 ## Project Overview
